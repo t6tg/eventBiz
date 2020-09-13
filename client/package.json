@@ -1,6 +1,8 @@
 {
   "name": "eventbiz-client",
   "dependencies": {
+    "@types/jest": "^26.0.13",
+    "enzyme": "^3.11.0",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -8,6 +10,17 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.6",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/node": "^14.10.1",
+    "@types/react": "^16.9.49",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
   }
 }

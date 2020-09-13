@@ -1,7 +1,13 @@
 {
-  "name": "eventBiz",
+  "name": "event-biz",
   "version": "1.0.0",
   "main": "index.js",
   "author": "thanawatgulati <thanawatgulatijames@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "event"
+  ],
+  "scripts": {
+    "tret": "cd client && yarn test"
+  }
 }
