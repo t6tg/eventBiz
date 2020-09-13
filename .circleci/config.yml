@@ -13,4 +13,4 @@ jobs:
           command: cd client && yarn install
       - run: # Test
           name: test
-          command: yarn test
+          command: cd client && yarn test
