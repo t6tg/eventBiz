@@ -6,11 +6,11 @@ jobs:
     steps:
       - checkout
       - run:
-        name: install-yarn
-        command: "sudo npm install -g yarn@latest"
+          name: install-yarn
+          command: "sudo npm install -g yarn@latest"
       - run:
           name: install-package
-          command: "cd client && yarn"
-      - run:
-          name: testing
-          command: "yarn test"
+          command: cd client && yarn install
+      - run: # Test
+          name: test
+          command: yarn test
