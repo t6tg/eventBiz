@@ -1,26 +1,28 @@
 {
-  "name": "eventbiz-client",
-  "dependencies": {
-    "@types/jest": "^26.0.13",
-    "enzyme": "^3.11.0",
-    "next": "^9.5.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "next start",
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "test": "jest"
   },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "nuxt": "^2.14.0"
+  },
   "devDependencies": {
-    "@types/enzyme": "^3.10.6",
-    "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/node": "^14.10.1",
-    "@types/react": "^16.9.49",
-    "enzyme-adapter-react-16": "^1.15.4",
-    "jest": "^26.4.2",
-    "ts-jest": "^26.3.0",
-    "typescript": "^4.0.2"
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "vue-jest": "^3.0.4"
   }
 }
